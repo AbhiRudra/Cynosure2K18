@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.abhishek.cynosure_2k18.Structura"
+    tools:showIn="@layout/activity_structura">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Description"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Structura event is organized by Dept of civil engineering.It contains three rounds based on Fundamentals of basic civil engineering."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rules1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Entry Fees:"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#ff00ff"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/rules"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="₹150/- per team \n(Max 3 members in a team)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/entryfees"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Rules:"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#ff00ff"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/entryfees2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="1. The team need to construct model from provided material only. No extra material will provided.
+The team should use only that material which is provided by organizer. If material is used other
+than provided then team will be disqualified immediately.
+\n2. Using materials of other participants is also strictly prohibited i.e. using some extra materials.
+\n3. One team can make only one model for proposed competition.
+\n4. The decision of the judges and the organizers will be final &#38; binding to all."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rounds"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Rounds:"
+                    android:textColorHighlight="#ff00ff"
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"
+                    android:padding="8dp"
+                    android:id="@+id/imageView5" />
+
+
+                <TextView
+                    android:id="@+id/rounds1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Round 1: Floating structure"
+                    android:textStyle="bold"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/round_info1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="The 1st round of this event that we are going to propose is 'Floating structure'. In this round
+participants will be provided some material &#38; they have to construct a floating model.
+\nThe most attractive part of this event is, they have to make a water floating structure by using
+playing cards and pop stick."/>
+                <TextView
+                    android:id="@+id/rounds2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\nRound 2: PERFORATED PAVEMENT"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryText" />
+
+                <TextView
+                    android:id="@+id/round_info2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="26dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="This round is based on the new construction technology of pavements known as ‘Perforated Pavements’\n.
+This technology has evolved so as to revive the storage of groundwater in urban areas and also for better drainage systems.\n
+This is the first time that this technology is been presented as an competition.\n
+This event will give students a basic idea about the technology and it has a huge scope for research."/>
+
+                <TextView
+                    android:id="@+id/rounds3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Round 3: Final Round"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryText" />
+
+                <TextView
+                    android:id="@+id/round_info3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="26dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="The Final round of this event will also suspense round. This round represents the resistance
+of a structure under earthquake condition. This round provides an insight into structures &#38; their
+behavior under earthquake vibration. The structure should be constructed according to problem
+statement."/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Prize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Prizes:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/prize1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="1)Winner:₹ 7,000/-\n2)1st Runner Up: ₹ 5,000/-\n3)Prize for 1st yr.Student: ₹2,000/-\n4)Prize for IOPE Student: ₹2,000/- \n5)Prize for Student other than civil: ₹2,000/-"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:clickable="true"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Event Head:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact"
+
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/contact1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView2"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="26dp"
+                    android:paddingTop="16dp"
+                    android:text="RUSHIKESH VETOSKAR,\n +91-7875317396"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/contact1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/imageView2"
+                    android:background="@drawable/shape"
+                    android:clickable="true"
+                    android:onClick="callHead1"
+                    android:padding="16dp"
+                    android:paddingBottom="26dp"
+                    android:src="@drawable/ic_call_black_36dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"
+                    android:layout_below="@+id/contact1"/>
+
+                <TextView
+                    android:id="@+id/contact2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/contact1"
+                    android:layout_toLeftOf="@+id/imageButton"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="26dp"
+                    android:paddingTop="16dp"
+                    android:text="BHUSHAN GHUGE, \n +91-7038450448"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/contact2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/imageButton"
+                    android:background="@drawable/shape"
+                    android:clickable="true"
+                    android:onClick="callHead2"
+                    android:padding="16dp"
+                    android:paddingBottom="26dp"
+                    android:src="@drawable/ic_call_black_36dp"/>
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

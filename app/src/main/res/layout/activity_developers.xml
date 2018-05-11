@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#aaa"
+    android:layout_height="match_parent"
+    tools:context="com.abhishek.cynosure_2k18.developers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact27"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ankura" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact27"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact28"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Ankur Pathania\nDevelopement Team Head,"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact29"
+                    android:textSize="20dp"
+                    android:onClick="call1"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact28"
+                    android:text="+91-9594926004"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail2"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact29"
+                    android:text="ankurpathania771@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact24"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/abhi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact24"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+                    android:onClick="call1"
+                    android:id="@+id/contact25"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Abhishek Rudrawar\nAndroid App Developer,"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact26"
+                    android:textSize="20dp"
+                    android:onClick="call1"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact25"
+                    android:text="+91-9960787947"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail1"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact26"
+                    android:text="abhishekrudrawar502@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

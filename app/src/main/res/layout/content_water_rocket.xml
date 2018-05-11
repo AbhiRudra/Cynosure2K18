@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.abhishek.cynosure_2k18.WaterRocket"
+    tools:showIn="@layout/activity_water_rocket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Description"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/description1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text=" A Water rocket is a type of model rocket using water as its reaction mass.It is all about hydrostatic pressure and projectile application. Taking the event as a base,the event  imply to check the everyday physics and design application of the participant.The design part of the rocket will include shape and structure of the fins,level of water,MOC of bottle,pressure in the bottle,length and volume of rocket,angle of projectile, size of nozzle and basic principle of rocket science"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rules1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Entry Fees:"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#ff00ff"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/rules"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="₹150/- per team \n(2 or 3 members in a team)"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/entryfees"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Rules:"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#ff00ff"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/entryfees2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="26dp"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="1)Decision by team members will be final.\n2)All other rules will be declared at the time of event!"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rounds"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Rounds:"
+                    android:textColorHighlight="#ff00ff"
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"
+                    android:padding="8dp"
+                    android:id="@+id/imageView5" />
+
+
+                <TextView
+                    android:id="@+id/rounds1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Round 1: APTITUDE TEST"
+                    android:textStyle="bold"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/round_info1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="The aptitude test will be based on the basics of rocket science,the basics of physics and the basics of chemistry.\n
+The test will carry 30 marks i.e.10 marks for each subject.\n
+1 hour will be given for the participants to complete the test."/>
+                <TextView
+                    android:id="@+id/rounds2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\nRound 2: DESIGN TESTING AND VIVA"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryText" />
+
+                <TextView
+                    android:id="@+id/round_info2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="26dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="In this round the design models made by the students will be tested as per the ideal parameters told in workshop.The model will be given maximum 15 marks for the innovative designs and its design parameters.
+\nViva will be conducted based on the models of the participants.viva will carry 15 marks."/>
+
+                <TextView
+                    android:id="@+id/rounds3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Round 3: RANGING THE ROCKET"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryText" />
+
+                <TextView
+                    android:id="@+id/round_info3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="26dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="The given amount of  chemical is added to the water to rapidify the reaction.The co2 formation and pump pressure will help the rocket to achieve the maximum horizontal distance.
+\nAfter launching the rocket at desired angle range will be calculated as 2 opportunities will be given for the participants"/>
+
+                <TextView
+                    android:id="@+id/rounds4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Round 4: HITTING THE TARGET"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryText" />
+
+                <TextView
+                    android:id="@+id/round_info4"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="26dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/primaryText"
+                    android:text="3 chances will be given for the water rocket to hit the desired target which is located at specific distance from the launcher."/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:clickable="true"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="26dp"
+                    android:paddingRight="26dp"
+                    android:paddingTop="8dp"
+                    android:text="Event Head:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact"
+
+                    android:padding="8dp"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:id="@+id/contact1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView2"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="26dp"
+                    android:paddingTop="16dp"
+                    android:text="Saurabh Mane,\n+91-7588851277"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/contact1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/imageView2"
+                    android:background="@drawable/shape"
+                    android:clickable="true"
+                    android:onClick="callHead1"
+                    android:padding="16dp"
+                    android:paddingBottom="26dp"
+                    android:src="@drawable/ic_call_black_36dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"
+                    android:layout_below="@+id/contact1"/>
+
+                <TextView
+                    android:id="@+id/contact2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/contact1"
+                    android:layout_toLeftOf="@+id/imageButton"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="26dp"
+                    android:paddingTop="16dp"
+                    android:text="Tejas Sondkar,\n+91-9011155962"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignBottom="@+id/contact2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/imageButton"
+                    android:background="@drawable/shape"
+                    android:clickable="true"
+                    android:onClick="callHead2"
+                    android:padding="16dp"
+                    android:paddingBottom="26dp"
+                    android:src="@drawable/ic_call_black_36dp"/>
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

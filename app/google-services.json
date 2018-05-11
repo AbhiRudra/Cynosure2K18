@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "481117743211",
+    "firebase_url": "https://cynosure2k18-b1510.firebaseio.com",
+    "project_id": "cynosure2k18-b1510",
+    "storage_bucket": "cynosure2k18-b1510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481117743211:android:4e7f2970131e2423",
+        "android_client_info": {
+          "package_name": "com.abhishek.cynosure_2k18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481117743211-epr22d0jd1uo1nnp9na8p6vn2f48il4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhishek.cynosure_2k18",
+            "certificate_hash": "1036b2a628dc8b2cce7307408802705bf2c4f747"
+          }
+        },
+        {
+          "client_id": "481117743211-6hiur9b65pi6lr8ker74sb9ieuai072p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4w5x9rIDJ727DITOEhJKo02-Ro7c2cIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481117743211-6hiur9b65pi6lr8ker74sb9ieuai072p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

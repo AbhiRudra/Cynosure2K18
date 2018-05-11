@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.abhishek.cynosure_2k18.Team"
+    tools:showIn="@layout/activity_team2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tsa" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact1"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Aaditya Muley"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact2"
+                    android:textSize="20dp"
+                    android:onClick="call1"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact1"
+                    android:text="+91-9975070077"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail1"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact2"
+                    android:text="mulayaditya123@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact3"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/aditya" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact3"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact4"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Aaditya Padature"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact5"
+                    android:textSize="20dp"
+                    android:onClick="call2"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact4"
+                    android:text="+91-9168034069"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail2"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact5"
+                    android:text="aditya.padature1@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact6"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ankura" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact6"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact7"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Ankur Pathania"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact8"
+                    android:textSize="20dp"
+                    android:onClick="call3"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact7"
+                    android:text="+91-9594926004"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail3"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact8"
+                    android:text="ankurpathania771@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact9"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chinmaya" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact9"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact10"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Chinmay Saraf"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact11"
+                    android:textSize="20dp"
+                    android:onClick="call4"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact10"
+                    android:text="+91-8408958988"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail4"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact11"
+                    android:text="chinmaysaraf111@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact12"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/rushia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact12"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact13"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Hrishikesh Jadhav"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact14"
+                    android:textSize="20dp"
+                    android:onClick="call5"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact13"
+                    android:text="+91-9921470084"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail5"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact14"
+                    android:text="rushikeshjadhao442@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact15"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mahesha" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact15"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact16"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Mahesh Pawar"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact17"
+                    android:textSize="20dp"
+                    android:onClick="call6"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact16"
+                    android:text="+91-9970330823"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail6"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact17"
+                    android:text="mpawar909@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact18"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/megha" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact18"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact19"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Megh Thakur"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact20"
+                    android:textSize="20dp"
+                    android:onClick="call7"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact19"
+                    android:text="+91-9326365496"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail7"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact20"
+                    android:text="meghthakur2896@outlook.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact21"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/mrunmayeea" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact21"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact22"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Mrunmayee Ture"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact23"
+                    android:textSize="20dp"
+                    android:onClick="call8"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact22"
+                    android:text="+91-7507718536"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail8"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact23"
+                    android:text="mrunmayeeture@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact24"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/shubhangia" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact24"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact25"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Shubhangi Randive"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact26"
+                    android:textSize="20dp"
+                    android:onClick="call9"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact25"
+                    android:text="+91-9921954586"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail9"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact26"
+                    android:text="randive.shubhangi00@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact27"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/suraja" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact27"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact28"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Suraj Nogja"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact29"
+                    android:textSize="20dp"
+                    android:onClick="call10"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact28"
+                    android:text="+91-8856949910"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail10"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact29"
+                    android:text="suraj.nogja29@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="16dp"
+            app:cardElevation="2dp"
+            android:background="@drawable/optionshape"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/backaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/contact30"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/tejasa" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact30"
+                    android:gravity="center"
+
+                    android:textSize="20dp"
+                    android:clickable="true"
+
+                    android:id="@+id/contact31"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="Tejas Ganyampawar"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/contact32"
+                    android:textSize="20dp"
+                    android:onClick="call11"
+                    android:textStyle="normal"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact31"
+                    android:text="+91-7709494959"
+
+                    android:clickable="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:onClick="mail11"
+                    android:textColor="#320c6b"
+                    android:layout_below="@+id/contact32"
+                    android:text="tejasganyarpwar28@gmail.com"
+                    android:clickable="true"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

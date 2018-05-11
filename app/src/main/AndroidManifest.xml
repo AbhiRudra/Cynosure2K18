@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhishek.cynosure_2k18">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cyno"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cyno"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.abhishek.cynosure_2k18.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".comp" />
+        <activity android:name=".workshops" />
+        <activity android:name=".sponsors" />
+        <activity android:name=".university" />
+        <activity android:name=".developers" />
+        <activity
+            android:name=".ProgChamp"
+            android:label="@string/title_activity_prog_champ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FunTaskTech"
+            android:label="@string/title_activity_fun_task_tech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LanGaming"
+            android:label="@string/title_activity_lan_gaming"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Motustron"
+            android:label="@string/title_activity_motustron"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Battleship"
+            android:label="@string/title_activity_battleship"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RacingMania"
+            android:label="@string/title_activity_racing_mania"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NeedForSpeed"
+            android:label="@string/title_activity_need_for_speed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EstateWar"
+            android:label="@string/title_activity_estate_war"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TechKshetra"
+            android:label="@string/title_activity_tech_kshetra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Structura"
+            android:label="@string/title_activity_structura"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Eureka"
+            android:label="@string/title_activity_eureka"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Encrypto"
+            android:label="@string/title_activity_encrypto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Alohomora"
+            android:label="@string/title_activity_alohomora"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WaterRocket"
+            android:label="@string/title_activity_water_rocket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BrainIT"
+            android:label="@string/title_activity_brain_it"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CSI"
+            android:label="@string/title_activity_csi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Team"
+            android:label="@string/title_activity_team"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".civil" />
+        <activity android:name=".electrical" />
+        <activity android:name=".extc" />
+        <activity android:name=".chemical" />
+        <activity android:name=".petro" />
+        <activity android:name=".mech" />
+        <activity android:name=".community" />
+        <activity android:name=".Event"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_faceboook"
+        android:orderInCategory="100"
+
+        android:title="Facebook"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_instagram"
+        android:orderInCategory="100"
+        android:title="Instagram"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_youtube"
+        android:orderInCategory="100"
+        android:title="Youtube"
+        app:showAsAction="never" />
+</menu>
